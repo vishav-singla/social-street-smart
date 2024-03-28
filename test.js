@@ -1,7 +1,8 @@
-const puppeteer = require('puppeteer');
-const scrollPageToBottom = require('puppeteer-autoscroll-down');
-const fetch = require('node-fetch');
-var assert = require('assert');
+import puppeteer from 'puppeteer';
+import scrollPageToBottom from 'puppeteer-autoscroll-down';
+import fetch from 'node-fetch';
+import assert from 'assert';
+
 const extensionPath = './lib';
 let browser = null;
 let testingPage = null;

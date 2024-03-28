@@ -42,6 +42,6 @@
     "*.js": [
       "./node_modules/.bin/eslint --fix"
     ]
-  }
-  
+  },
+  "type": "module"
 }
